@@ -8,12 +8,12 @@ const IndexPage = () => {
   // const [result, setResult] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(':', e.target.value);
+    // console.log(':', e.target.value);
     setInputVal(e.target.value);
   };
 
   useEffect(() => {
-    // console.log('',)
+    console.log('ready',)
   }, []);
 
   return (
