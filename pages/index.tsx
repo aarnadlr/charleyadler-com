@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { useEffect, useState } from 'react';
-import { noRenderWs, reverseString } from '../functions';
+import { noRenderWs } from '../functions';
 
 const IndexPage = () => {
   const [inputVal, setInputVal] = useState('');
-  const [result, setResult] = useState('');
+  // const [result, setResult] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(':', e.target.value);
