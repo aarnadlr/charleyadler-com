@@ -32,9 +32,20 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </header>
     {children}
     <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
+      <hr style={{border:'1px solid rgba(255, 0, 0, .5)'}} />
+      {/* <span>footer</span> */}
     </footer>
+    <style jsx global>{`
+      body {
+        background-color: #1f1f1f;
+      }
+      h1, h2, p, a, span{
+        color: white;
+      }
+      *{
+        font-family: sans-serif;
+      }
+    `}</style>
   </div>
 )
 
