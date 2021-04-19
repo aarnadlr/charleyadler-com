@@ -18,7 +18,7 @@ const IndexPage = () => {
 
   return (
     <Layout title="Charley Elizabeth Adler 👧🏻👧🏻">
-      <h1>Charley Elizabeth Adler 👧🏻</h1>
+      <h1>Charley Elizabeth Adler 👧🏻🦄</h1>
       <p>
         <Link href="/about">
           <a>About</a>
