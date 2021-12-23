@@ -13,7 +13,7 @@ const IndexPage = () => {
   };
 
   useEffect(() => {
-    console.log('ready',)
+    console.log('ready');
   }, []);
 
   return (
@@ -22,6 +22,11 @@ const IndexPage = () => {
       <p>
         <Link href="/about">
           <a>About</a>
+        </Link>
+        <br />
+
+        <Link href="/about">
+          <a>Second Link</a>
         </Link>
       </p>
 
